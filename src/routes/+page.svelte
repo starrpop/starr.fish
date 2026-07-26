@@ -1,47 +1,23 @@
 <script lang="ts">
-	import Counter from './Counter.svelte';
+	import videoStub from '$lib/images/video-stub.png';
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>Editorial</title>
+	<meta name="description" content="Starr B. editorial web portfolio" />
 </svelte:head>
 
 <section>
-
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-
-	<Counter />
+	<img src={videoStub} alt="Video Stub" />
+	<img src={videoStub} alt="Video Stub" />
+	<img src={videoStub} alt="Video Stub" />
 </section>
 
 <style>
 	section {
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 0.6;
-	}
-
-	h1 {
-		width: 100%;
-	}
-
-	.starr-header {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.starr-header img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
+		gap: 6rem;
+		margin-top: 3rem;
 	}
 </style>

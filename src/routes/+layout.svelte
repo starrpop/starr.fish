@@ -12,11 +12,11 @@
 		{@render children()}
 	</main>
 
-	<footer>
+	<!-- <footer>
 		<p>
 			footer stub
 		</p>
-	</footer>
+	</footer> -->
 </div>
 
 <style>
